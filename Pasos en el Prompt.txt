@@ -1,0 +1,14 @@
+C:\Users\kimbe\
+cd OneDrive - Universidad Galileo
+cd Octavo Trimestre
+cd Product Development
+cd Laboratorio 5
+cd apidemo
+python pipeline_predict2.py
+
+set FLASK_APP=app
+flask run
+
+
+prueba: {"PassengerId":"1","Survived":"0","Pclass":"3","Name":"Braund, Mr. Owen Harris","Sex":"male","Age":"22","SibSp":"1","Parch":"0","Ticket":"A/5 21171","Fare":"7.25","Cabin":"","Embarked":"S"}
+
